@@ -6,43 +6,6 @@
 
 }
 
-}
-#b{
-  background-image: url("../image/backgrounds/");
-  background-position: center;
-  background-size: cover;
-
-}
-#c{
-  background-image: url("../image/backgrounds/");
-  background-position: center;
-  background-size: cover;
-
-}
-#d{
-  background-image: url("../image/backgrounds/");
-  background-position: center;
-  background-size: cover;
-
-}
-#e{
-  background-image: url("../image/backgrounds/foodsBg.jpg");
-  background-position: center;
-  background-size: cover;
-
-}
-#f{
-  background-image: url("../image/backgrounds/");
-  background-position: center;
-  background-size: cover;
-
-}
-#g{
-  background-image: url("../image/backgrounds/subscribe.jpg");
-
-  background-size: cover;
-
-}
 .img{
   display: flex;
   margin: auto;
@@ -57,12 +20,13 @@ h2{
 }
 #happyhour{
     background-color: grey;
-    padding:18px;
+    padding:20px;
 
 }
 #partytime{
     background-color: red;
-      padding: 18px;
+      padding: 20px;
+      padding-bottom: 50px;
 }
 #break{
       background-image: url("../image/foodtop/breakfast.jpg");
@@ -79,4 +43,19 @@ h2{
     text-align: center;
     padding-bottom: 130px;
 
+}
+#image{
+  margin-left: 200px;
+}
+#image0{
+  box-shadow: 10px 10px grey;
+}
+#font{
+  font-size: 100%;
+}
+#Image{
+  margin-left: 200px;
+}
+#bar{
+  background-image: url("../image/backgrounds/foodsBg.jpg");
 }
