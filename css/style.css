@@ -1,4 +1,50 @@
-body{
-  background-image: url(image/backgrounds/landing.jpg);
-  background-color: gree;
+#head{
+  background-image: url("../image/backgrounds/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#a{
+  background-image: url("../image/backgrounds/landing.jpg");
+  background-color: green;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#b{
+  background-image: url("../image/backgrounds/landing.jpg");
+  background-color: green;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#c{
+  background-image: url("../image/backgrounds/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#d{
+  background-image: url("../image/backgrounds/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#e{
+  background-image: url("../image/backgrounds/foodsBg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#f{
+  background-image: url("../image/backgrounds/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#g{
+  background-image: url("../image/backgrounds/subscribe.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
