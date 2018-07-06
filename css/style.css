@@ -6,26 +6,24 @@
 }
 #a{
   background-image: url("../image/backgrounds/landing.jpg");
-  background-color: green;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 #b{
-  background-image: url("../image/backgrounds/landing.jpg");
-  background-color: green;
+  background-image: url("../image/backgrounds/");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 #c{
-  background-image: url("../image/backgrounds/landing.jpg");
+  background-image: url("../image/backgrounds/");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 #d{
-  background-image: url("../image/backgrounds/landing.jpg");
+  background-image: url("../image/backgrounds/");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -37,7 +35,7 @@
   background-attachment: fixed;
 }
 #f{
-  background-image: url("../image/backgrounds/landing.jpg");
+  background-image: url("../image/backgrounds/");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -47,4 +45,15 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+.img{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+.text{
+  text-decoration-color: white;
+  text-align: center;
 }
