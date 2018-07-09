@@ -13,20 +13,30 @@
   align-items: center;
 
 }
-
-}
 h2{
   color: white;
 }
+
+.text{
+    align-items: justify;
+    color:white;
+}
+#text{
+  align:center;
+  margin-left: 450px;
+  color: white;
+  font-size: 350%;
+}
+
 #happyhour{
     background-color: grey;
-    padding:20px;
+    padding:30px;
 
 }
 #partytime{
     background-color: red;
       padding: 20px;
-      padding-bottom: 50px;
+      padding-bottom: 30px;
 }
 #break{
       background-image: url("../image/foodtop/breakfast.jpg");
@@ -59,16 +69,18 @@ h2{
 #bar{
   background-image: url("../image/backgrounds/foodsBg.jpg");
 }
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
+
+  #subscribe{
+    background-image: url("../image/backgrounds/subscribe.jpg");
+
+  }
+
+h4 {color: green;
+}
+h5 {color: white;
+  align-self: center;
+}
+.text{
+    align-items: justify;
+    color:white;
+}
