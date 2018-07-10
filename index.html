@@ -59,7 +59,7 @@
           by professional chefs.</br>
         </br>
       </br>
-        <a href="gallery.html" class="button-secondary3">View Gallery</a>
+        <button class="button-secondary3" onclick="window.open('gallery.html')">View Gallery</a>
         </div>
         </div>
         </div>
@@ -75,27 +75,44 @@
                 discounts guaranteed at happy hour and party time.</br>
               </br>
             </br>
-            <a href="gallery.html" class="button-secondary3">View Gallery</a>
+            <button class="button-secondary3" onclick="window.open('gallery.html')">View Gallery</a>
               </div>
             </br>
           </br>
 
             </div>
             <div class="col-md-6">
+              <div id="e">
               <img src="image/drink1.jpg"><img src="image/drink2.jpg">
+            </div>
             </div>
           </div>
           <div id="bar">
+            <nav>
+              <a href="#">Fast Food</a> |
+              <a href="#">Drinks</a> |
+              <a href="#">Chicken</a> |
+              <a href="#">Rice</a>
+            </nav>
+            <div id="menu">
+            <img src="image/fastfood/beefBurger.jpg">
+              <img src="image/fastfood/chickenBurger.jpg">
+                <img src="image/fastfood/chickenPizza.jpg">
+          </div>
+
           </div>
             <div id="comments">
             <div class="row">
               <div class="col-md-6">
               <h4>OUR HAPPY CUSTOMERS</h4>
               Great food! Not only do they have good food but also</br>
-              on an affordable price range.
+              on an affordable price range.</br>
+              <img src="image/customers/p1.png">
+              <img src="image/customers/p2.png">
+              <img src="image/customers/p3.png">
             </div>
-            <div class="col-md-6">
-              <h4>ABOUT MENU</h4>
+              <div class="col-md-6">
+          <h4>ABOUT MENU</h4>
 
             </div>
           </div>
@@ -107,8 +124,9 @@
             <div id="text"><h5>GET OUR DAILY FOOD ITEMS DELIVERED TO YOUR EMAIL</h5>
             <form action="/dennisveer27@gmail.com">
               <h4>
-            <input type="text" name="address" value="@gmail.com">
-             <button type="button" onclick="href mailto;dennisveer27@gmail.com">SUBMIT</button>
+            <input id="email" type="text" name="address" value="@gmail.com">
+
+             <button id="submit" type="button" onclick="href mailto;dennisveer27@gmail.com">SUBMIT</button>
            </h4>
               </form>
               </br>

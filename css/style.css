@@ -37,21 +37,25 @@ h2{
     background-color: red;
       padding: 20px;
       padding-bottom: 30px;
+
 }
 #break{
       background-image: url("../image/foodtop/breakfast.jpg");
       text-align: center;
-      padding-bottom: 130px;
+      padding-bottom: 80px;
+      padding-top: 80px;
 }
 #lunch{
       background-image: url("../image/foodtop/lunch.jpg");
       text-align: center;
-      padding-bottom: 10px;
+      padding-bottom: 80px;
+      padding-top: 80px;
 }
 #dinner{
     background-image: url("../image/foodtop/dinner.jpg");
     text-align: center;
-    padding-bottom: 130px;
+    padding-bottom: 80px;
+    padding-top: 80px;
 
 }
 #image{
@@ -96,6 +100,12 @@ h5 {color: white;
   border:2px solid #F15A29:
 
 }
-#image{
-  box-shadow:
+#image1,#image2{
+  box-shadow: 0 0  20px;
+}
+#e{
+    box-shadow: 0 0  20px;
+}
+.button-secondary3{
+
 }
