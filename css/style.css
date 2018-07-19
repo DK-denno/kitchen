@@ -2,7 +2,7 @@
   background-image: url("../image/backgrounds/landing.jpg");
   background-position: center;
   background-size: cover;
-  padding-bottom:10px;
+  padding-bottom: 40px;
 
 }
 
@@ -23,20 +23,22 @@ h2{
 }
 #text{
   align:center;
-  margin-left: 450px;
+  margin-left: 400px;
   color: white;
   font-size: 350%;
 }
 
 #happyhour{
     background-color: grey;
-    padding:30px;
+    padding:20px;
+    padding-top: 40px;
 
 }
 #partytime{
     background-color: red;
       padding: 20px;
-      padding-bottom: 30px;
+      padding-bottom: 35px;
+
 
 }
 #break{
@@ -44,6 +46,12 @@ h2{
       text-align: center;
       padding-bottom: 80px;
       padding-top: 80px;
+}
+#happy{
+  padding:20px;
+  padding-top: 0px;
+  padding-left: 10px
+  padding-right: 10px;
 }
 #lunch{
       background-image: url("../image/foodtop/lunch.jpg");
@@ -56,10 +64,11 @@ h2{
     text-align: center;
     padding-bottom: 80px;
     padding-top: 80px;
+    padding-right: 20px;
 
 }
 #image{
-  margin-left: 200px;
+  margin-left: 160px;
 }
 #image0{
   box-shadow: 10px 10px grey;
@@ -67,9 +76,7 @@ h2{
 #font{
   font-size: 100%;
 }
-#Image{
-  margin-left: 200px;
-}
+
 #bar{
   background-image: url("../image/backgrounds/foodsBg.jpg");
 }
